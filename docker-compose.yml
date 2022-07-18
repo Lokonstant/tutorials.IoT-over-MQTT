@@ -45,7 +45,7 @@ services:
     container_name: fiware-iot-agent
     depends_on:
       - mongo-db
-      -mosquitto
+      - mosquitto
     networks:
       - default
     expose:
